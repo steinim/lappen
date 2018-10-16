@@ -16,9 +16,9 @@ Top of `config.xml` should look like this:
 * Set correct `version`
 
 ```
-cordova build --release android
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore release-key.keystore ./platforms/android/build/outputs/apk/release/android-release-unsigned.apk lappen
-~/Library/Android/sdk/build-tools/28.0.3/zipalign -v 4 ./platforms/android/build/outputs/apk/release/android-release-unsigned.apk lappen_<version>.apk
+ionic cordova build --release android
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore release-key.keystore platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk Lappen
+~/Library/Android/sdk/build-tools/28.0.3/zipalign -v 4 ./platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk Lappen_<version>.apk
 ```
 
 Go to https://play.google.com/apps/publish/ to publish.
@@ -34,7 +34,7 @@ Top of `config.xml` should look like this:
 * Set correct `version`
 
 ```
-cordova build --release ios
+ionic cordova build --release ios
 open platforms/ios/Lappen.xcworkspace
 ```
 
