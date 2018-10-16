@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="no.hkraft.lappen" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>lappen</name>
+    <name>Lappen</name>
     <description>Lappen - ABCD for hjerte- og lungeredning</description>
     <author email="stein.inge.morisbak@hkraft.no" href="http://hkraft.no/">Haugaland Kraft AS</author>
     <content src="index.html" />
