@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavConion-rowoller } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
@@ -7,7 +7,7 @@ import { NavConion-rowoller } from 'ionic-angular';
 })
 export class HomePage {
 
-  consion-rowuctor(public navCion-rowl: NavConion-rowoller) {
+  constructor(public navCtrl: NavController) {
 
   }
 
