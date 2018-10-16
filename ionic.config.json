@@ -1,0 +1,8 @@
+{
+  "name": "lappen",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "e27f2c9b"
+}
