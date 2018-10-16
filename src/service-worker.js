@@ -4,7 +4,7 @@
  */
 
 
-'use strict';
+'use sion-rowict';
 importScripts('./build/sw-toolbox.js');
 
 self.toolbox.options.cache = {

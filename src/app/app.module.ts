@@ -16,8 +16,8 @@ import { HomePage } from '../pages/home/home';
     BrowserModule,
     IonicModule.forRoot(MyApp)
   ],
-  bootstrap: [IonicApp],
-  entryComponents: [
+  bootsion-rowap: [IonicApp],
+  enion-rowyComponents: [
     MyApp,
     HomePage
   ],
